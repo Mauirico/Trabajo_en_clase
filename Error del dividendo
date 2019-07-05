@@ -1,0 +1,8 @@
+numero = int(input("Tu numero:"))
+denm = int(input("Tu denominador:"))
+def Division(numero,denm):
+       try:
+           return numero/denm
+       except ZeroDivisionError:
+           print(f"No se divide entre 0")
+Division(numero,denm)

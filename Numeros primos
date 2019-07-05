@@ -1,0 +1,14 @@
+a = int(input("Dame un numero"))
+while a < 1:
+     print("Ese no lo necesito")
+     a = int(input("Otro numero:"))
+if a == 2:
+     print(a)
+else:
+     for i in range(2,a):
+             p = True
+             for j in range(2, i):
+                    if i % j == 0:
+                           p = False
+             if p is True:
+                    print(i)

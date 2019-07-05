@@ -1,0 +1,7 @@
+n = int(input("Tu numero:"))
+while n < 1:
+     print(f"Ese no lo necesito")
+     n = int(input("Otro:"))
+for n in range(1,n):
+     lista = [n]
+     print(lista)

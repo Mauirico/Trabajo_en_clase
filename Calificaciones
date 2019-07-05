@@ -1,0 +1,13 @@
+calif = int(input("¿Cual es tu calificacion?"))
+if calif < 0:
+       print(f"No existe esa calificacion")
+elif calif < 5:
+       print(f"Reprobado")
+elif calif == 5:
+       print(f"Suficiente")
+elif calif == 6:
+       print(f"Aprobado")
+elif calif == 7:
+       print(f"Notable")
+elif calif >= 8:
+       print(f"Sobresaliente")

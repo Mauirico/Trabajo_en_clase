@@ -1,0 +1,6 @@
+Meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+n = int(input("Tu mes:"))
+if -1 < n < 12:
+    Meses[n]
+else:
+    print(f"No esta en la lista")

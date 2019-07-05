@@ -1,0 +1,23 @@
+##Primer codigo
+def imprimir_tabla(numero):
+         Contador = 1
+         LIMITE = 10
+         while Contador <= LIMITE:
+                 resultado = Contador * numero
+                 print("{} x {} = {}".format(numero, Contador, resultado))
+                 Contador += 1
+numero = int(input("Dime un numero:"))
+imprimir_tabla(numero)
+
+##Segundo codigo
+compro = True
+while compro == True:
+    numero = int(input("Dime tu numero:"))
+    if numero > 0:
+        i = 1
+        while i < 11:
+            print(numero, "por", i, "es igual a:", numero * i)
+            i += 1
+        compro == False
+    else:
+        print("No se puede")

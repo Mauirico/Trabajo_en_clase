@@ -1,0 +1,12 @@
+def imprimir_tabla(numero):
+         Contador = 1
+         LIMITE = 10
+         while Contador <= LIMITE:
+                 resultado = Contador * numero
+                 print("{} x {} = {}".format(numero, Contador, resultado))
+                 Contador += 1
+numero = int(input("Dime un numero:"))
+Tablas = []
+Tablas.insert(0, imprimir_tabla(numero))
+n = int(input("¿Que otro numero?"))
+print(Tablas)

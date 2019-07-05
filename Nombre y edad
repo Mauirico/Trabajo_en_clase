@@ -1,0 +1,3 @@
+nombre = input("Di tu nombre:")
+edad = input("Tu edad:")
+print(f"Tu nombre es {nombre} y tienes {edad}.")

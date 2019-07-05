@@ -1,0 +1,7 @@
+edad = int(input("Dame tu edad:"))
+if edad < 0:
+       print(f"No existe esa edad")
+elif edad > 18:
+       print(f"Eres mayor de edad")
+else:
+       print(f"Eres menor de edad")

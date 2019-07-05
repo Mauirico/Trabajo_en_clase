@@ -1,0 +1,4 @@
+from math import pi
+r = float(input("Tu radio:"))
+A = pi*r**2
+print(f"El area de tu circulo es:{A})
